@@ -1,0 +1,35 @@
+.l-header {
+  background: #ee9a9a;
+  padding-top: 0.6rem;
+  position: fixed;
+  width: 100%;
+  &_inner {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    h1 {
+      width: calc(537px / 2);
+      height: auto;
+      img {
+        width: 100%;
+      }
+    }
+    nav {
+      width: 57rem;
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.6rem;
+        padding-top: 1.3rem;
+        justify-content: space-between; 
+        li {
+          a {
+            color: $base-color;
+          }
+        }
+      }
+    }
+  }
+}
