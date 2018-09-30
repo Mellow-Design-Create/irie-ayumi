@@ -1,5 +1,5 @@
 .l-header {
-  background: #ee9a9a;
+  background: $theme-color_pink;
   padding-top: 0.6rem;
   position: fixed;
   width: 100%;
@@ -23,13 +23,54 @@
         flex-wrap: wrap;
         font-size: 1.6rem;
         padding-top: 1.3rem;
-        justify-content: space-between; 
+        justify-content: space-between;
         li {
           a {
             color: $base-color;
           }
         }
       }
+    }
+  }
+}
+.l-footer {
+  background: #eeeeee;
+  .l-bnr_area {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 5rem 0;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -2rem;
+      li {
+        padding: 0 2rem;
+        width: calc(100% / 3);
+        &:nth-child(1) {
+          padding: 1.5rem;
+        }
+      }
+      figure {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    a {
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  small {
+    text-align: center;
+    display: block;
+    background: $theme-color_pink;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    a {
+      color: $base-color;
+      text-decoration: underline;
     }
   }
 }

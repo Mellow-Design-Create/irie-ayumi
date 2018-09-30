@@ -1,0 +1,23 @@
+$base-color: #212529;
+$theme-color_pink: #ee9a9a;
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+figure {
+  margin: 0;
+}
+a:hover {
+  transition: all 0.3s;
+}
